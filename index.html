@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="stats-container">
+        <div class="details">
+          <h1>Smart To-Do Application</h1>
+          <br />
+          <p><i>Simplify tasks, amplify results 📒.</i></p>
+          <div id="progressBar">
+            <div id="progress"></div>
+          </div>
+        </div>
+        <div class="stats-numbers">
+          <p id="numbers">0 / 0</p>
+        </div>
+      </div>
+
+      <form action="">
+        <input type="text" id="taskInput" placeholder="Task" />
+        <button id="newTask" type="submit">+</button>
+      </form>
+
+      <ul id="task-list"></ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
