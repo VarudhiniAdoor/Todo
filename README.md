@@ -109,25 +109,6 @@ This project is a feature-rich To-Do application with a frontend built using HTM
 - `PUT /api/tasks/{id}` - Update an existing task.
 - `DELETE /api/tasks/{id}` - Delete a task.
 
----
-
-## **Technologies Used**
-- **Frontend**: HTML, CSS, JavaScript, Axios.
-- **Backend**: Java Spring Boot.
-- **Database**: MongoDB.
-- **Tools**: Git, Maven.
-
----
-
-## **Contributing**
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
-
----
-
-## **License**
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
 
 ## **Contact**
 For any queries or suggestions, reach out to:
